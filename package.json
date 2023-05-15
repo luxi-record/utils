@@ -1,0 +1,29 @@
+{
+  "name": "luxi-record-util",
+  "version": "1.0.0",
+  "description": "一些工具函数",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luxi-record/utils.git"
+  },
+  "files": ["lib/**/*"],
+  "keywords": [
+    "utils",
+    "工具",
+    "函数"
+  ],
+  "author": "luxi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luxi-record/utils/issues"
+  },
+  "homepage": "https://github.com/luxi-record/utils#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}

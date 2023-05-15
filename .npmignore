@@ -1,0 +1,2 @@
+# package.json 配置了白名单。files
+# 权限。 白名单 > .npmignore > .gitignore

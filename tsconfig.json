@@ -1,12 +1,15 @@
 {
     "compilerOptions": {
         "target": "es5",
+        "baseUrl": ".",
         "module": "commonjs",
         "declaration": true,
+        "noEmitOnError": true,
+        "declarationDir": "./lib",
         "outDir": "./lib",
         "strict": true,
-        "lib": [ "es6" ]
+        "lib": ["DOM", "es6", "es7", "ES2017.Object"]
     },
     "include": [ "src" ],
-    "exclude": [ "node_modules"]
+    "exclude": [ "node_modules"],
 }

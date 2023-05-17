@@ -8,7 +8,7 @@
         "declarationDir": "./lib",
         "outDir": "./lib",
         "strict": true,
-        "lib": ["DOM", "es6", "es7", "ES2017.Object"]
+        "lib": ["DOM", "es6", "es7", "es2017"]
     },
     "include": [ "src" ],
     "exclude": [ "node_modules"],

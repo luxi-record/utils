@@ -111,7 +111,7 @@ export function asyncTasks(task: PromiseTask[], limit: number = 1): Promise<any>
 
 /*
     ** 前端导出xlsx或者csv
-    ** @params title为表格表头, [{name: '姓名'},{age: '年龄'}]
+    ** @params title为表格表头, [{key: 'name', value: '姓名'}, {key: 'age', value: '年龄'}]
     ** @params data为数据 [{name: '小王', age: 25}]
     ** @params fileName为文件名
 */

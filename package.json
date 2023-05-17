@@ -1,6 +1,6 @@
 {
   "name": "luxi-record-utils",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "一些工具函数",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

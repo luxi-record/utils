@@ -1,12 +1,15 @@
 {
   "name": "luxi-record-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "一些工具函数",
-  "main": "lib/index.js",
+  "main": "lib/index.cjs",
+  "module": "lib/index.mjs.js",
   "types": "lib/index.d.ts",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "rollup --config",
+    "build-ts": "tsc"
   },
   "repository": {
     "type": "git",
@@ -28,6 +31,11 @@
   },
   "homepage": "https://github.com/luxi-record/utils#readme",
   "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "rollup": "^3.23.0",
+    "rollup-plugin-typescript2": "^0.34.1",
     "typescript": "^5.0.4"
   }
 }

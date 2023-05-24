@@ -9,6 +9,7 @@ import deepClone from "./deepClone/index";
 import exportXlsOrCsv from "./exportXlsOrCsv/index";
 import largeNumberAdd from "./largeNumberAdd/index";
 import searchPathFromTree from "./searchPath/index";
+import serchParams from "./searchQueryParams/index";
 
 export type { XlsTitle } from './exportXlsOrCsv/index'
 export type { TimeFormat, RegionType } from './dateFormat/index'
@@ -16,5 +17,5 @@ export type { PromiseTask } from './concurrency/index'
 
 export { ConcurrencyControl, asyncTasks, setCookie, getCookie,
     removeCookie, copy, dateTime, debounce, throttle, downloadFile,
-    deepClone, exportXlsOrCsv, largeNumberAdd, searchPathFromTree 
+    deepClone, exportXlsOrCsv, largeNumberAdd, searchPathFromTree,serchParams 
 }

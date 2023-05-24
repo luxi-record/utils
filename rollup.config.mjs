@@ -25,6 +25,6 @@ export default defineConfig({
     typescript({
       sourceMap: false,
     }),
-    resolve(),
+    resolve()
   ],
 });

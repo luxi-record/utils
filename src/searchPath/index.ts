@@ -24,3 +24,18 @@ export default function searchPathFromTree(tree: Record<string, any>, key: strin
     traverse(child, path, key, value, childKey)
     return resulet
 }
+
+/*
+    ** 扁平化一棵树
+    function treeToArray(tree: any[]) {
+        let res = []
+        for (const item of tree) {
+            const { children, ...i } = item
+            if (children && children.length) {
+                res = res.concat(treeToArray(children))
+            }
+            res.push(i)
+        }
+        return res
+    }
+*/

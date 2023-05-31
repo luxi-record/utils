@@ -1,6 +1,6 @@
-export default function serchParams(k?: string) {
+export default function serchParams(k?: string): string | any {
     if (!window) throw new Error('This function just use in browser environment')
-    const result: Record<string, string> = {}
+    const result: any = {}
     const string = window.location.search.slice(1)
     if (!string) return {}
     const list = string.split('&')
